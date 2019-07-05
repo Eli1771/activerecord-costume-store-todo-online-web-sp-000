@@ -10,6 +10,9 @@
 
 class CreateCostumes < ActiveRecord::Migration 
   def change 
-    create_table :costumes 
+    create_table :costumes do |t|
+      t.text :name 
+      t.
+    end 
   end 
 end 
